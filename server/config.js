@@ -2,9 +2,7 @@ import {config} from 'dotenv'
 
 config()    
 
-console.log(process.env.hello)
-
-/* export default {
+ export default {
     BUCKET_NAME: process.env.BUCKET_NAME || '', 
-    Endpoint: process.env.Endpoint   
-} */
+    Endpoint: process.env.ENDPOINT || ''
+} 
